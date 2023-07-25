@@ -1,0 +1,18 @@
+pkgbase = timeshift-systemd-timer
+	pkgdesc = Adicionar suporte systemd para timeshift
+	pkgver = 0.0.1
+	pkgrel = 2
+	arch = any
+	license = cIO
+	depends = systemd
+	depends = timeshift
+	source = local://timeshift-boot.service
+	source = local://timeshift-boot.timer
+	source = local://timeshift-hourly.service
+	source = local://timeshift-hourly.timer
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = timeshift-systemd-timer
